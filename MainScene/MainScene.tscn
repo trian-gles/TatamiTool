@@ -1,0 +1,68 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://States/Kire.gd" type="Script" id=1]
+[ext_resource path="res://MainScene/MainScene.gd" type="Script" id=2]
+[ext_resource path="res://States/IAD.gd" type="Script" id=3]
+[ext_resource path="res://States/State.tscn" type="PackedScene" id=4]
+[ext_resource path="res://States/Finish.gd" type="Script" id=5]
+[ext_resource path="res://States/FRC.gd" type="Script" id=6]
+[ext_resource path="res://States/Tatami.gd" type="Script" id=7]
+
+[node name="MainScene" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="States" type="VBoxContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Tatami" parent="States" instance=ExtResource( 4 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 480.0
+margin_bottom = 147.0
+script = ExtResource( 7 )
+
+[node name="FRC" parent="States" instance=ExtResource( 4 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 151.0
+margin_right = 480.0
+margin_bottom = 298.0
+script = ExtResource( 6 )
+window_start = 23
+window_end = 26
+
+[node name="IAD" parent="States" instance=ExtResource( 4 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 302.0
+margin_right = 480.0
+margin_bottom = 449.0
+script = ExtResource( 3 )
+
+[node name="KireTatami" parent="States" instance=ExtResource( 4 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 453.0
+margin_right = 480.0
+margin_bottom = 600.0
+script = ExtResource( 1 )
+window_start = 5
+window_end = 9
+
+[node name="Finish" parent="States" instance=ExtResource( 4 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 483.0
+margin_right = 480.0
+margin_bottom = 600.0
+script = ExtResource( 5 )
