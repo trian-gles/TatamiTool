@@ -1,0 +1,14 @@
+res://Resource/default_env.tres
+res://MainScene/MainScene.tres
+res://temp.tscn
+res://temp.cs
+res://MainScene/MainScene.tscn
+res://States/State.tscn
+res://addons/global_input/autoload/global_input_csharp/GlobalInputCSharp.cs
+res://addons/global_input/example_scenes/csharp_example/CharacterBody2D.cs
+res://addons/global_input/example_scenes/csharp_example/World.cs
+res://addons/global_input/global_input.cs
+res://MainScene/MainScene.gd
+res://addons/global_input/autoload/global_input_gd/GlobalInputGd.gd
+res://States/FRC.gd
+res://States/IAD.gd

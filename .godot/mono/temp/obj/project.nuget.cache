@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "2AKSJ445EEF6sw/GMsRIEhU1AM/Ee4MGPWQRQGp7gQtvBrIvCwe/+G3iQ/XyD/TWCyhXNbVlYtXr/n3kAzqi7Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\bkier\\OneDrive\\Documents\\projects\\frc-practice\\TatamiTool.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bkier\\.nuget\\packages\\godot.sourcegenerators\\4.1.3\\godot.sourcegenerators.4.1.3.nupkg.sha512",
+    "C:\\Users\\bkier\\.nuget\\packages\\godotsharp\\4.1.3\\godotsharp.4.1.3.nupkg.sha512",
+    "C:\\Users\\bkier\\.nuget\\packages\\godotsharpeditor\\4.1.3\\godotsharpeditor.4.1.3.nupkg.sha512",
+    "C:\\Users\\bkier\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\bkier\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\bkier\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}

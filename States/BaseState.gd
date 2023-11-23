@@ -5,19 +5,19 @@ class_name BaseState
 signal state_finished(next_state)
 
 var enter_frame: int;
-export var window_start = 0
-export var window_end = 0
+@export var window_start = 0
+@export var window_end = 0
 
-onready var green = Color(0, 255, 0)
+@onready var green = Color(0, 255, 0)
 
-onready var color = $Color
-onready var label = $Label
+@onready var color = $Color
+@onready var label = $Label
 
 
 func button_press(b: String):
 	pass
 	
-func button_release(b: String):
+func button_released(b: String):
 	pass
 	
 func reset():
